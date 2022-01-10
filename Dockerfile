@@ -8,3 +8,22 @@ ADD . /docker-flask-test
 RUN pip install -r requirements.txt
 # define the command to start the container
 CMD ["python","app.py"]
+
+
+
+
+
+# FROM python:alpine
+
+
+# COPY ./requirements.txt /app/requirements.txt
+
+# WORKDIR /app
+
+# RUN pip install -r requirements.txt
+
+# COPY . /app
+
+
+# EXPOSE 5000
+# CMD ["python", "main.py"]
