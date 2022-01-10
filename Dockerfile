@@ -26,3 +26,9 @@ CMD ["python","app.py"]
 # RUN pip install --upgrade pip && pip install -r requirements.txt
 # # define the command to start the container
 # CMD ["python","main.py"]
+
+#Command
+# docker image ls
+# docker run -p 5000:5000 -d docker-flask-test
+# docker stop {imageID}
+# docker system prune
